@@ -15,7 +15,8 @@
 // (posiciondelaletraenascci + offset) % 26(totaldeletras) + 65 = nueva posicion en el codigo asccii
 
 window.cipher = {
-  encode: () => {
+  encode: (offset, textToEncode) => {
+    
       },
 /* Acá va tu código */
     
