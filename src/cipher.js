@@ -18,22 +18,19 @@
 window.cipher = {
   encode: (offset, textToEncode) => {
     let encoded = "";
-    let asciiCode= "";
   //se recorre el string textToEncode y le aplicamos a cada posición charcodeat para tomar el numero de ubicacion en ascii
     for (let i = 0; i<textToEncode.length; i++) {
       asciiCode = textToEncode[i].charCodeAt();
    //MINUSCULAS
-      if (asciiCode >= 97 && asciiCode <= 122) {
+      if ((asciiCode >= 97) && (asciiCode <= 122)) {
         //Tomamos los valores de Ascii Code y los convertimos de nuevo enletras
-        encoded += String.fromCharCode((asciiCode - 97 + offset) % 26 + 97);
+        encoded +=String.fromCharCode((asciiCode - 97 + offset) % 26 + 97);
         // resultado
- {
-        encoded += textToEncode[i];
-      }
     }
-    return encoded;
+
       // console.log(encoded);
     }
+    return encoded;
   }};
 /* Acá va tu código */
     
