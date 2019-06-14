@@ -18,6 +18,7 @@
 window.cipher = {
   encode: (offset, textToEncode) => {
     let encoded = "";
+    let asciiCode="";
   //se recorre el string textToEncode y le aplicamos a cada posición charcodeat para tomar el numero de ubicacion en ascii
     for (let i = 0; i<textToEncode.length; i++) {
       asciiCode = textToEncode[i].charCodeAt();

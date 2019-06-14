@@ -5,7 +5,7 @@ const encodeBtn = document.getElementById("botonEncodeHTML");
 
         encodeBtn.addEventListener("click", () => {
             let textToEncode = document.getElementById("toEncodeHTML").value;
-            let offset = document.getElementById("offsetHTML").value;
+            let offset = parseInt(document.getElementById("offsetHTML").value);
             // console.log(textToEncode);
             // console.log(offset);
 
