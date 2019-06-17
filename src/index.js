@@ -18,15 +18,15 @@ const encodeBtn = document.getElementById("botonEncodeHTML");
 
 
 
-//selección descifrar
-// const decodeBtn = document.getElementById("botondecodeHTML");
-//         decodeBtn.addEventListener("click", () => {
-//             let textToDecode = document.getElementById("toEncodeHTML").value;
-//             let offset = document.getElementById("offsetHTML").value;
-//             // impresion iwal que arriba
-//             solution = window.cipher.decode(offset, textToDecode);
-//             document.getElementById("resultHTML").innerHTML = solution;
-//             // console.log(solution);
-//         });
+// selección descifrar
+const decodeBtn = document.getElementById("botondecodeHTML");
+        decodeBtn.addEventListener("click", () => {
+            let textToDecode = document.getElementById("toEncodeHTML").value;
+            let offset = parseInt(document.getElementById("offsetHTML").value);
 
-        //agregar boton limpiar ()
+            // impresion iwal que arriba
+           document.getElementById("resultHTML").innerHTML = window.cipher.decode(offset, textToDecode);
+            // console.log(solution);
+        });
+
+        // agregar boton limpiar ()

@@ -17,26 +17,37 @@
 
 window.cipher = {
   encode: (offset, textToEncode) => {
-    let encoded = "";
+    let encodedMin = "";
     let asciiCode="";
+   
+
   //se recorre el string textToEncode y le aplicamos a cada posición charcodeat para tomar el numero de ubicacion en ascii
     for (let i = 0; i<textToEncode.length; i++) {
       asciiCode = textToEncode[i].charCodeAt();
    //MINUSCULAS
       if ((asciiCode >= 97) && (asciiCode <= 122)) {
         //Tomamos los valores de Ascii Code y los convertimos de nuevo enletras
-        encoded +=String.fromCharCode((asciiCode - 97 + offset) % 26 + 97);
+        encodedMin +=String.fromCharCode((asciiCode - 97 + offset) % 26 + 97);
         // resultado
+      }
     }
-
       // console.log(encoded);
-    }
-    return encoded;
-  }};
+      return encodedMin;
+    },
 /* Acá va tu código */
-    
- 
-//   decode: () => {
-//     /* Acá va tu código */
-//   }
-// },
+    decode: (offset, textToDecode) => {
+    let decodedMin = "";
+    let asciiCode = "";
+    for (let i = 0; i < textToDecode.length; i++) {
+      asciiCode = textToDecode[i].charCodeAt();
+      //MINUSCULAS
+      if ((asciiCode >= 97) && (asciiCode <= 122)) {
+        //Tomamos los valores de Ascii Code y los convertimos de nuevo enletras
+        decodedMin += String.fromCharCode((asciiCode - 97 - offset) % 26 + 97);
+        // resultado
+      }
+    }
+    // console.log(encoded);
+    return decodedMin;
+  }  /* Acá va tu código */
+};

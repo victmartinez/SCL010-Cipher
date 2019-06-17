@@ -10,13 +10,13 @@ describe('cipher', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
       //mayusculas
-      it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33');
+      // it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33');
       //minusculas
       it('debería retornar "hijklmnopqrstuvwxyabcdefg" para "abcdefghijklmnopqrstuvwyz" con offset 33');
       //espacios (los quiero igual)
-      it('debería retornar " " para " " con offset 33');
-      //numeros 
-      it('debería retornar "456" para "345" con offset 1');
+      // it('debería retornar " " para " " con offset 33');
+      // //numeros 
+      // it('debería retornar "456" para "345" con offset 1');
     });
 
   describe('cipher.decode', () => {
