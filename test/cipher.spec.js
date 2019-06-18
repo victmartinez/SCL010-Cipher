@@ -1,36 +1,54 @@
-describe('cipher', () => {
-
-  it('debería ser un objeto', () => {
-    assert.equal(typeof cipher, 'object');
+// macro cipher
+describe('window.cipher', () => { //què voy a testear
+  it('debería ser un objeto', () => { // què deberìa ser segun yo
+    assert.equal(typeof cipher, 'object'); //moccha me responde con esta lìnea
   });
 
-  describe('cipher.encode', () => {
+
+
+
+  // encode
+  describe('window.cipher.encode', () => {
 
     it('debería ser una función', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
-      //mayusculas
-      // it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33');
-      //minusculas
-      it('debería retornar "hijklmnopqrstuvwxyabcdefg" para "abcdefghijklmnopqrstuvwyz" con offset 33');
-      //espacios (los quiero igual)
-      // it('debería retornar " " para " " con offset 33');
-      // //numeros 
-      // it('debería retornar "456" para "345" con offset 1');
+
+    // min
+    it('debería retornar "bcdefghijklmnopqrstuvwxyza" para "abcdefghijklmnopqrstuvwxyz" con offset 1', () => {
+      assert.equal(window.cipher.encode(1, "gorgori"), "hpshpsj");
+    });
+    //  may
+    it('debería retornar "BCDEFGHIJKLMNOPQRSTUVWXYZA" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 1', () => {
+      assert.equal(window.cipher.encode(1, "GORGORI"), "HPSHPSJ");
     });
 
-  describe('cipher.decode', () => {
+    //esp
+    it('debería retornar " " para " " con offset 1', () => {
+      assert.equal(window.cipher.encode(1, " "), " ");
+    });
+
+  });
+  // decode
+  describe('window.cipher.decode', () => {
 
     it('debería ser una función', () => {
       assert.equal(typeof cipher.decode, 'function');
     });
-        //mayusculas
-        it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33');
-        //minusculas   
-        it('debería retornar "abcdefghijklmnopqrstuvwyz" para "hijklmnopqrstuvwxyabcdefg" con offset 33');
-        //espacios
-         it('debería retornar " " para " " con offset 33');
-        //numeros 
-         it('debería retornar "345" para "456" con offset 1');
-    })
+    // min
+    it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "bcdefghijklmnopqrstuvwxyza" con offset 1', () => {
+      assert.equal(window.cipher.decode(1, "hpshpsj"), "gorgori");
     });
+    //  may
+    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "BCDEFGHIJKLMNOPQRSTUVWXYZA" con offset 1', () => {
+      assert.equal(window.cipher.decode(1, "HPSHPSJ"), "GORGORI");
+    });
+
+    //esp
+    it('debería retornar " " para " " con offset 1', () => {
+      assert.equal(window.cipher.decode(1, " "), " ");
+    });
+
+
+  });
+});
