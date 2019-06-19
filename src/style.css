@@ -4,7 +4,6 @@
   padding: 10px;
   color: #ffffff;
   display: inline-flex;
-  position: fixed;
   width: 100%;
 
 
@@ -23,7 +22,9 @@ display: inline-block;
 
 
 #linksHTML {
-  
+  float: right;
+  width: 40%;
+
 
 }
 
@@ -31,11 +32,14 @@ display: inline-block;
 .btnLinkHTML{ 
 
 text-decoration: none;
-display: inline-block;
-  padding: 100px;
+display: block;
+
   font-weight: 200;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 50px;
+  width: 450px;
   color: #ffffff;
   background-color: pink;
   border-radius: 3px;
