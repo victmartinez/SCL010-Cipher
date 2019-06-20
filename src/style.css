@@ -1,3 +1,13 @@
+body {
+ background-image: url("https://www.kappanonline.org/wp-content/uploads/2019/01/desegregation-racial-attitudes-intergroup-contact.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+width: auto;
+height: auto;
+
+}
+
+/* nav */
 #root{
  background-color: pink;
   height: 100px;
@@ -5,9 +15,12 @@
   color: #ffffff;
   display: inline-flex;
   width: 100%;
+  border-radius: 5px; 
 
 
 }
+
+
 #tittle {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;  
@@ -24,6 +37,7 @@ display: inline-block;
 #linksHTML {
   float: right;
   width: 40%;
+  height: 40%;
 
 
 }
@@ -34,7 +48,7 @@ display: inline-block;
 text-decoration: none;
 display: block;
 
-  font-weight: 200;
+  font-weight: 100;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -42,10 +56,74 @@ display: block;
   width: 450px;
   color: #ffffff;
   background-color: pink;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .btnLinkHTML:hover {
   color: palevioletred;
   background-color: #ffffff;
   }
   
+  #cipherHTML{
+  
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(255, 192, 203, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 70px;
+
+  }
+
+  
+
+
+  .offset {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    border-color: pink;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.text{
+  width: 450px;
+  height: 50px;
+  background-color: white;
+  font-family: Arial,
+  Helvetica,
+  sans-serif;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  border-color: palevioletred;
+  border-radius: 5px;
+}
+
+ .button{
+     font-weight: 50px;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     height: 50px;
+     width:100px;
+     color: #ffffff;
+     background-color: pink;
+     border-radius: 5px;
+   }
+
+   .button:hover {
+     color: palevioletred;
+     background-color: #ffffff;
+   }
+
+   .container{
+     width: 80%;
+     height: 80%;
+     margin: 10px;
+
+   }
