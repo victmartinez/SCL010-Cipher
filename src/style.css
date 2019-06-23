@@ -1,21 +1,21 @@
 body {
- background-image: url("https://www.kappanonline.org/wp-content/uploads/2019/01/desegregation-racial-attitudes-intergroup-contact.jpg");
-background-repeat: no-repeat;
-background-size: 100%;
-width: auto;
-height: auto;
+  background-image: url("https://www.kappanonline.org/wp-content/uploads/2019/01/desegregation-racial-attitudes-intergroup-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: auto;
+  height: auto;
 
 }
 
 /* nav */
-#root{
- background-color: pink;
+#root {
+  background-color: pink;
   height: 100px;
   padding: 10px;
   color: #ffffff;
   display: inline-flex;
   width: 100%;
-  border-radius: 5px; 
+  border-radius: 5px;
 
 
 }
@@ -23,14 +23,14 @@ height: auto;
 
 #tittle {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;  
+  font-size: 40px;
 }
 
-#torito{
+#torito {
   max-width: 70px;
   max-height: 70px;
   padding: 20px;
-display: inline-block;
+  display: inline-block;
 }
 
 
@@ -43,10 +43,10 @@ display: inline-block;
 }
 
 
-.btnLinkHTML{ 
+.btnLinkHTML {
 
-text-decoration: none;
-display: block;
+  text-decoration: none;
+  display: block;
 
   font-weight: 100;
   font-size: 20px;
@@ -57,46 +57,48 @@ display: block;
   color: #ffffff;
   background-color: pink;
   border-radius: 5px;
+  transition:background-color 1s ease, height 1s ease-in 1s, margin-bottom 1s linear 1s;
 }
+
 .btnLinkHTML:hover {
   color: palevioletred;
   background-color: #ffffff;
-  }
-  
-  #cipherHTML{
-  
-    display: inline-block;
-    width: 40%;
-    height: 40%;
-    background-color: rgb(255, 192, 203, 0.5);
-    border-radius: 5px;
-    padding: 20px;
-    margin-left: 70px;
+}
 
-  }
+#cipherHTML {
 
-  
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+  background-color: rgb(255, 192, 203, 0.5);
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 70px;
+
+}
 
 
-  .offset {
-    width: 100px;
-    height: 50px;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    border-color: pink;
-    font-size: 15px;
-    border-radius: 5px;
-    text-align: center;
-  }
 
-.text{
+
+.offset {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  border-color: pink;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.text {
   width: 450px;
   height: 50px;
   background-color: white;
   font-family: Arial,
-  Helvetica,
-  sans-serif;
+    Helvetica,
+    sans-serif;
   border: none;
   font-size: 15px;
   text-align: center;
@@ -104,26 +106,26 @@ display: block;
   border-radius: 5px;
 }
 
- .button{
-     font-weight: 50px;
-     font-size: 15px;
-     font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
-     height: 50px;
-     width:100px;
-     color: #ffffff;
-     background-color: pink;
-     border-radius: 5px;
-   }
+.button {
+  font-weight: 50px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  background-color: pink;
+  border-radius: 5px;
+}
 
-   .button:hover {
-     color: palevioletred;
-     background-color: #ffffff;
-   }
+.button:hover {
+  color: palevioletred;
+  background-color: #ffffff;
+}
 
-   .container{
-     width: 80%;
-     height: 80%;
-     margin: 10px;
+.container {
+  width: 80%;
+  height: 80%;
+  margin: 10px;
 
-   }
+}
