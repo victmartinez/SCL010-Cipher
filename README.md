@@ -1,8 +1,13 @@
-# Qué es el Cifrado César? 🔐
+#The Bull
+![thebull](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/64824965_2417756048445783_7186477831017201664_n.jpg?_nc_cat=108&_nc_oc=AQk_4R5E-DPcWk_aBB1huZ-Zfs75Kib_6uKmVfsTRw0XvhuQLh42DQDOcGbZTjB0w0g&_nc_ht=scontent.fscl3-1.fna&oh=b0acba9db88a52fd893b3a01ab8fecc7&oe=5D7F3015)
+
+
+## Qué es el Cifrado César? 🔐
 
 En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas decodificación más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A ), la B sería reemplazada por la E, etc. Este método debe su nombre, según Suetonio, a Julio César, que lo usaba para comunicarse con sus generales.
 
 ![caeser-cipher](http://2.bp.blogspot.com/-3du0K9pOZ7s/VHFySl6ZmtI/AAAAAAAAADk/0giTfpefDHw/s1600/caesar.gif)
+
 
 
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
