@@ -1,4 +1,5 @@
 # The Bull🐮
+#### Vista previa
 ![thebull](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/64824965_2417756048445783_7186477831017201664_n.jpg?_nc_cat=108&_nc_oc=AQk_4R5E-DPcWk_aBB1huZ-Zfs75Kib_6uKmVfsTRw0XvhuQLh42DQDOcGbZTjB0w0g&_nc_ht=scontent.fscl3-1.fna&oh=b0acba9db88a52fd893b3a01ab8fecc7&oe=5D7F3015)
 
 
