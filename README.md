@@ -1,7 +1,9 @@
 # Qué es el Cifrado César? 🔐
 
 En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas decodificación más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A ), la B sería reemplazada por la E, etc. Este método debe su nombre, según Suetonio, a Julio César, que lo usaba para comunicarse con sus generales.
+
 ![caeser-cipher](http://2.bp.blogspot.com/-3du0K9pOZ7s/VHFySl6ZmtI/AAAAAAAAADk/0giTfpefDHw/s1600/caesar.gif)
+
 
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
@@ -17,14 +19,14 @@ El maltrato entre pares o "bullying" en inglés es una realidad que ha existido 
 The Bull,  funciona como una aplicación web que ofrece a los niños -de 8 a 15 años- participantes de bullying -víctima, victimario, y testigos directos- una forma de contar lo que producto del código del silencio no se atreven a decir. Estamos seguros que tanto quién lo ejerce como quién lo recibe tienen mucho que decir. Pretendemos mitigar el temor de revelar la situación a alguien con autoridad para solucionarlo o brindar contensión a los participantes. En esta plataforma, la víctima o el testigo puede escribir todo lo que ha vivenciado con certeza de que nadie que no quiera lo leerá, con la seguridad visual del código y la posesión de la clave necesaria para desencriptarlo. Y también ofrecemos medios para que pueda ponerse en contacto con una red de apoyo -de no tener la propia- que lo contengan y se mantengan al tanto de la situación.
 
 
-##Proceso de diseño y prototipado🎨
+## Proceso de diseño y prototipado🎨
 La interfaz de usuario inicial de **The Bull** es bastante sencilla. Tiene una pantalla dividida a la mitad cuya parte izquierda contiene el cipher y en la derecha enlaces de apoyo. **¡No estamos satisfechos con esta solución!**, pero preferimos enfocarnos primero en la funcionalidad de la página para en futuras iteraciones agregar el contenido extra y ad hoc a la temática escogida para que realmente sea de utilidad para los usuarios.
-###Prototipos 
-#####▶Control de flujo
+### Prototipos 
+##### ▶Control de flujo
 
 ![control de flujo](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/64728940_2417641525123902_8427401059445506048_n.jpg?_nc_cat=105&_nc_oc=AQmHJmiI5h5cX_aMY9tTrgLQgxA_2KYcsQUg-U5_iP73yHF6FX6wOH9UG0n-32UMd38&_nc_ht=scontent.fscl3-1.fna&oh=26744c0ce35f3d77d9fcf246f766eda5&oe=5D86E247)
 
-#####▶Conceptos de UX
+##### ▶Conceptos de UX
 ![control de flujo](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/65001494_2417641558457232_6273759270156632064_n.jpg?_nc_cat=111&_nc_oc=AQmMoDzztKd2N8NH-K2Z4VDha2B68MzSBm-1ARU1SkWFy-I7OMDedfAw2deIOAMnTFI&_nc_ht=scontent.fscl3-1.fna&oh=9785d6d79a4188ce6709dac27b3bf33c&oe=5DC55660)
 Convenimos después del taller de mockups de UX, crear una interfaz en color **azul** basados en la psicología del color; El azul es el color que más asociamos con la simpatía, la armonía, la amistad y la confianza. 
 Creamos una plataforma con una sóla página para agilizar el uso y poder enmarcar todos los enlaces de apoyo, ayuda y escucha que tenemos para ofrecer.
